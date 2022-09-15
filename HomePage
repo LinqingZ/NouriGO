@@ -57,8 +57,9 @@
             .content-sec-1{
                 display: grid;
                 grid-template-columns: 1fr 1fr;
-                column-gap: 16px;
-                row-gap: 40px;
+                justify-items: center;
+                column-gap: 50px;
+                row-gap: 30px;
                 margin-left: 50px;
                 margin-right: 50px;
                 margin-bottom: 50px;
@@ -71,18 +72,19 @@
             }
 
             .description1{
+                position: relative;
                 background-color: rgb(0, 255, 191);
                 padding: 16px;
             }
 
             .description1 h{
                 color: rgb(191, 0, 255);
-                font-size: 30px;
+                font-size: 60px;
             }
 
             .description1 p{
                 color:rgb(4, 103, 12);
-                font-size: 15px;
+                font-size: 30px;
             }
 
             .footer {
@@ -135,7 +137,9 @@
                 </div>
             </div>
         </div>
-
+        <div>
+            <h> One bite at a time towards a substainable future </h>
+        </div>
         <div class="content-sec-1">
             <div class="description1">
                 <h> Eating healthy just became a little more simple</h> 
@@ -149,7 +153,7 @@
         </div>
 
         <div class="footer">
-            <p> Hello you made it to the end</p>
+            <p> Hello this is the footer :)</p>
         </div>
     </body>
 </html>
