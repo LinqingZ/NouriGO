@@ -8,6 +8,8 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <style> 
 
             .header{
@@ -155,7 +157,8 @@
             .footer {
                 display: flex;
                 flex-direction: row;
-
+                align-items: center;
+                justify-content: center;
                 position: relative;
                 bottom: 0;
                 left: 0;
@@ -164,10 +167,63 @@
                 background-color: rgb(87, 85, 85);
             }
 
+            .inside-footer{
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: center;
+            }
+
             .footer p{
                 color: white;
             }
+
+            .left-footer{
+                align-items: center;
+                justify-content: center;
+                place-items: center;
+            }
+
+            .left-footer p{
+                width: 160px;
+                padding-right: 10px;
+            }
             
+            .fa {
+                padding: 10px;
+                font-size: 20px;
+                width: 18px;
+                height: 20px;
+                text-align: center;
+                text-decoration: none;
+                border-radius: 50%;
+            }
+            
+            .fa:hover {
+                opacity: 0.7;
+            }
+
+            .fa-facebook {
+                background: #3B5998;
+                color: white;
+            }
+
+            .fa-twitter {
+                background: #55ACEE;
+                color: white;
+            }
+
+            .fa-instagram {
+                background: #ffffff;
+                color: rgb(0, 0, 0);
+            }
+
+            .logo-footer{
+                height:80px;
+                display: block;
+                margin: 0 auto;
+            }
+
             
         </style>
     </head>
@@ -230,9 +286,28 @@
         </div>
 
 
-
         <div class="footer">
-            <p> Hello this is the footer :)</p>
+            <div class="inside-footer"> 
+                <div class="left-footer">
+                    <img class="logo-footer" src="logo.png">
+                    <p>Want to healthy? The simple choice is to go with NouriGo, a healthy alternative than junk food.</p>
+                </div>
+                <div class="socials">
+                    <h1>Follow Us</h1>
+    
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
+                <div class="right-footer">
+                    <h2> Quick links</h2> 
+                    <p> Home </p>
+                    <p> About </p>
+                    <p> Product </p> 
+                    <p> FAQ </p> 
+                    <p> Contact US</p>
+                </div>
+            </div>
         </div>
     </body>
 </html>
