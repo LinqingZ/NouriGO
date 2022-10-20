@@ -65,9 +65,17 @@ body{
 
 .menu{
     font-family: 'Caveat';
-    font-size: 14px;
+    font-size: 20px;
     margin-right: 10%;
     margin-left: 10%;
+    background-color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.MainMenu-background{
+    background-image: url("../image/background.png");
+    background-size: 50px;
 }
 
 .MainMenu-heading{
@@ -89,8 +97,7 @@ body{
 }
 
 .MainMenu-item-image{
-    width:80px;
-    height: 80px;
+    width:30%;
     flex-shrink: 0;
     object-fit: cover;
     margin-right: 1.5em;
@@ -98,6 +105,11 @@ body{
 
 .MainMenu-item-text{
     flex-grow: 1;
+    border-color:rgb(0, 0, 0);
+    border: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    padding: 10px;
 }
 
 .MainMenu-item-heading{
