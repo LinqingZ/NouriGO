@@ -62,7 +62,6 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
-
 .menu{
     font-family: 'Caveat';
     font-size: 20px;
@@ -71,11 +70,14 @@ body{
     background-color: white;
     padding-left: 5%;
     padding-right: 5%;
+    border-radius: 3em;
 }
 
 .MainMenu-background{
     background-image: url("../image/background.png");
     background-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .MainMenu-heading{
@@ -89,7 +91,7 @@ body{
     grid-template-columns: 1fr;
     gap: 1.5em;
     padding: 1.5em 0;
-
+    margin-top: 0;
 }
 
 .MainMenu-item{
@@ -126,14 +128,14 @@ body{
 
 @media screen and (min-width: 992px){
     .menu{
-        font-size:16px;
+        font-size:20px;
     }
     .MainMenu-group{
         grid-template-columns: 1fr 1fr;
     }
     .MainMenu-item-image{
-        width:125px;
-        height: 125px;
+        width:150px;
+        height: 150px;
     }
 }
 /* 
