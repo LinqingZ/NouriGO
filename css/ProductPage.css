@@ -78,6 +78,8 @@ body{
     background-size: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
+    background-color: rgb(149, 208, 123);
+    background-blend-mode: lighten;
 }
 
 .MainMenu-heading{
