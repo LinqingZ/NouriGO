@@ -10,11 +10,9 @@
     right: 0;
     z-index: 100;
 
-    background-color: rgb(42, 196, 196);
+    background-color: rgb(255,255,255);
     padding-left: 10px;
 }
-
-
 
 .left-section {
     display: flex;
@@ -37,13 +35,13 @@
 .About-container,
 .Product-container,
 .FAQ-container{
-    margin-right: 50px
+    margin-right: 50px;
 }
 
 .nav-link{
     text-decoration: none;
     font-size: 19px;
-    color:white;
+    color:rgb(79, 164, 79);
 }
 
 .nav-link:hover{
@@ -156,7 +154,7 @@ section{
     left: 0;
     right: 0;
     z-index: 100;
-    background-color: rgb(87, 85, 85);
+    background-color: rgb(255, 255, 255)/*rgb(87, 85, 85);*/
 }
 
 .inside-footer{
@@ -188,7 +186,7 @@ section{
 }
 
 .socials h1{
-    color: rgb(42, 196, 196);
+    color: rgb(79, 164, 79);/*rgb(42, 196, 196);*/
 }
 
 .fa {
@@ -216,8 +214,8 @@ section{
 }
 
 .fa-instagram {
-    background: #ffffff;
-    color: rgb(0, 0, 0);
+    background: rgb(52, 116, 52);
+    color: rgb(255, 255, 255);
 }
 
 .logo-footer{
@@ -231,12 +229,12 @@ section{
     padding-right: 20px;
 }
 .right-footer h2{
-    color:rgb(42, 196, 196)
+    color:rgb(52, 116, 52);/*rgb(42, 196, 196)*/
 }
 
 .right-footer a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);/*white;*/
     display: block;
     margin-bottom: 10px;
 }
